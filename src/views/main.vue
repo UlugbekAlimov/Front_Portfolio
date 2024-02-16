@@ -1,33 +1,33 @@
 <template>
-    <navbar-vue></navbar-vue>
+    <!-- <navbar-vue></navbar-vue> -->
     <app-home></app-home>
-    <about-me></about-me>
-    <the-services></the-services>
-    <the-resume></the-resume>
-    <the-contact></the-contact>
-    <the-footer></the-footer>
+    <forgot-password></forgot-password>
+    <the-verification></the-verification>
+    <!-- <the-resume></the-resume> -->
+    <!-- <the-contact></the-contact> -->
+    <!-- <the-footer></the-footer> -->
     
 </template>
 
 <script>
-import navbarVue from '../components/navbar.vue'
+// import navbarVue from '../components/navbar.vue'
 import AppHome from '../pages/AppHome.vue'
-import AboutMe from '../pages/AboutMe.vue'
-import TheServices from '../pages/TheServices.vue'
-import TheResume from '../pages/TheResume.vue'
-import TheContact from '../pages/TheContact.vue'
-import TheFooter from '../pages/TheFooter.vue'
+import ForgotPassword from '../pages/ForgotPassword.vue'
+import TheVerification from '../pages/TheVerification.vue'
+// import TheResume from '../pages/TheResume.vue'
+// import TheContact from '../pages/TheContact.vue'
+// import TheFooter from '../pages/TheFooter.vue'
 
 
 export default {
 components : {
-    navbarVue,
+    // navbarVue,
     AppHome,
-    AboutMe,
-    TheServices,
-    TheResume,
-    TheContact,
-    TheFooter
+    ForgotPassword,
+    TheVerification,
+    // TheResume,
+    // TheContact,
+    // TheFooter
 }
 }
 </script>

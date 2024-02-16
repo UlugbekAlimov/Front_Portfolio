@@ -14,14 +14,14 @@ const router = createRouter({
           component: ()=>import ('../pages/AppHome.vue')  
         },
         {
-          path : '/Aboutme',
-          name : 'Aboutme',
-          component: ()=>import ('../pages/AboutMe.vue')  
+          path : '/ForgotPassword',
+          name : 'ForgotPassword',
+          component: ()=>import ('../pages/ForgotPassword.vue')  
         },
         {
-          path : '/service',
-          name : 'service',
-          component: ()=>import ('../pages/TheServices.vue')  
+          path : '/TheVerification',
+          name : 'TheVerification',
+          component: ()=>import ('../pages/TheVerification.vue')  
         },
         {
           path : '/resume',

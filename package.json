@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap-icons": "^1.11.2",
+    "feather-icons": "^4.29.1",
     "jquery": "^3.7.1",
     "typed.js": "^2.1.0",
     "vue": "^3.3.4",
